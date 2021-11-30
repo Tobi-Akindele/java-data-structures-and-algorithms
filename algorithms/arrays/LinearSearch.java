@@ -3,7 +3,7 @@ package arrays;
 public class LinearSearch {
 
 	public static void main(String[] args) {
-		System.out.println(searchInArray(new int[] {1,2,3,4,5,6}, 6));
+		System.out.println(searchInArray(new int[] {1,2,3,4,5,6}, 7));
 	}
 	
 	public static int searchInArray(int[] intArray, int valueToSearch) {
