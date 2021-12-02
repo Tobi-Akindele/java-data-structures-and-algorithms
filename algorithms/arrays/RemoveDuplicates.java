@@ -24,7 +24,7 @@ public class RemoveDuplicates {
 		return j;
 	}
 
-	//Flawed
+	// Flawed
 	public static int[] removeDuplicates(int[] arr) {
 
 		int result = removeDuplicates(arr, arr.length);
@@ -35,7 +35,7 @@ public class RemoveDuplicates {
 		}
 		return newArray;
 	}
-	
+
 	public static int[] removeDuplicates2(int[] arr) {
 		if (arr.length == 0 || arr.length == 1)
 			return arr;
